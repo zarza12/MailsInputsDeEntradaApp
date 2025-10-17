@@ -1,6 +1,5 @@
 package com.example.mailsinputsdeentradaapp.ui.theme.components
 
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField

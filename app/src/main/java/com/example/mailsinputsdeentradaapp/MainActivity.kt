@@ -18,16 +18,16 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.mailsinputsdeentradaapp.ui.theme.MailsInputsDeEntradaAppTheme
+import com.example.mailsinputsdeentradaapp.ui.theme.components.EjemploCheckBox
 import com.example.mailsinputsdeentradaapp.ui.theme.components.EjemploOutlinedTextField
+import com.example.mailsinputsdeentradaapp.ui.theme.components.EjemploRadioButton
+import com.example.mailsinputsdeentradaapp.ui.theme.components.EjemploSwitch
 import com.example.mailsinputsdeentradaapp.ui.theme.components.EjemploText
 import com.example.mailsinputsdeentradaapp.ui.theme.components.EjemploTextField
-import com.example.mailsinputsdeentradaapp.ui.theme.components.TarjetaEjemplo
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,8 +66,14 @@ fun ComponentesApp(){
             item { EjemploText() }
             item { SeleccionTitulo("2. CAMPOS DE TEXTO") }
             item { EjemploTextField() }
-            item { SeleccionTitulo("3. Email") }
+            item { SeleccionTitulo("3. EMAIL") }
             item { EjemploOutlinedTextField() }
+            item { SeleccionTitulo("4. CHECK BOX") }
+            item { EjemploCheckBox() }
+            item { SeleccionTitulo("5. SWITCH") }
+            item { EjemploSwitch() }
+            item { SeleccionTitulo("6. RADIO BUTTON") }
+            item { EjemploRadioButton() }
         }
 
     }
